@@ -1,0 +1,11 @@
+@import 'layout/footer.css';
+@import 'layout/header.css';
+@import 'components/contacts.css';
+@import 'components/education.css';
+@import 'components/info.css';
+
+
+
+.body {
+    background: 	#D3D3D3;
+}

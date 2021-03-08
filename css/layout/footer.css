@@ -1,0 +1,26 @@
+.footer {
+    margin: auto;
+    /*фывафывафывафывафыва*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.footer__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /*фывафывафывафывафыва*/
+    
+}
+
+.footer__list-components-left {
+    display: inline;
+    /*фывафывафывафывафыва*/
+}
+
+.footer__list-components-right {
+    display: inline;
+    padding: 10px;
+    /*фывафывафывафывафыва*/
+}
