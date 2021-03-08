@@ -1,0 +1,20 @@
+.header {
+    overflow: hidden;
+    margin: auto;
+
+}
+
+.header__logo {
+    padding: 20px;
+    float: left;
+    width: 30%;  
+
+}
+
+.header__name {
+    text-decoration: underline;
+    margin-left: 55%;
+    margin-top: 150px;
+
+    
+}
