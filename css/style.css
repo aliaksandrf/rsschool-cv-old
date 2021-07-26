@@ -8,4 +8,6 @@
 
 .body {
     background: 	#D3D3D3;
+    width: 100%;
+    margin: auto;
 }
