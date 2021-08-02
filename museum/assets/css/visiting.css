@@ -1,0 +1,100 @@
+.visiting-section {
+    padding-top: 75px;
+    padding-bottom: 10px;
+}
+
+
+
+.visiting-title{
+    color: var(--font-gold);
+}
+
+.visiting-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px 10px;
+
+    padding-top: 103px;
+
+
+}
+
+.visiting-card {
+    position: relative;
+    padding-bottom: 62px;
+}
+
+.visiting-card-title{
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #000000;
+
+    padding-top: 22px;
+
+    
+}
+
+.visiting-card-content-big{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    
+    padding-top: 22px;
+}
+
+.visiting-card-content {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+
+    padding-top: 12px;
+}
+
+.visiting-card-underline-title:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: var(--dark-red);
+    bottom: -68px;
+}
+
+.visiting-card-link {
+    position: relative;
+}
+
+.visiting-card-image{
+    width: 440px;
+    height: 285px;
+   
+    
+}
+
+.visitcard-underline-title {
+    content: "";
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: var(--dark-red);
+
+}
+
+.visiting__image {
+    padding-top: 13px;
+}
+

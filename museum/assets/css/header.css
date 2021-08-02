@@ -1,0 +1,41 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-navigation {
+      
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .navigation {
+      max-width: 760px;
+      flex-grow: 1;
+
+  }
+
+  .header-navigation-item {
+       padding-right: 10px;
+
+  }
+
+  .header-nav-href{
+    color: var(--font-light);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 50px;
+    letter-spacing: 2px;
+    border: 1px solid #000000;
+}
+
+  .header-nav-href:hover {
+      background: var(--font-gold);
+  }
+
+
+
