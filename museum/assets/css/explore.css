@@ -1,0 +1,45 @@
+
+
+.explore-title {
+    color: var(--font-light);
+
+    padding-top: 5px;
+}
+
+.explore-content-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+    color:var(--font-light);
+
+    padding-top: 100px;
+}
+
+.explore-content {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+    color:var(--font-light);
+
+    padding-top: 27px;
+}
+
+.explore-yellow {
+    color: #CAAA7D;
+}
+
+.explore-flex-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.explore-content-left{
+    padding-right: 60px;
+}
+
