@@ -1,0 +1,48 @@
+.contacts-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    padding-top: 105px;
+}
+
+
+.contacts-image {
+    width: 960px;
+    height: 620px;
+}
+
+.contacts__title-small {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+
+    padding-top: 10px;
+    padding-bottom: 18px;
+
+
+}
+
+.contacts__address{
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.contacts__content {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+
+    padding-top: 20px;
+}
+
+.contacts__title {
+    color: var(--font-gold);
+}
+

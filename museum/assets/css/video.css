@@ -1,0 +1,114 @@
+.video-section {
+    padding-top: 90px;
+    padding-bottom: 75px;
+}
+
+.video-title {
+    color: var(--font-gold);
+}
+
+.video-content {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+    color: var(--bg-dark);
+
+    padding-top: 7px;
+}
+
+.video-container {
+    position: relative;
+}
+
+
+.play-button {
+    position: absolute;
+    top: 205px;
+    left: calc(50% - 110px);
+    width: 220px;
+    height: 220px;
+    background-image: url(/assets/svg/video/play-screen.svg);
+    background-color: transparent;
+    border: none;
+    z-index: 10;
+    cursor: pointer;
+    transition: transform .5s;
+}
+
+.play-button:hover,
+.control:hover {
+        filter: invert(63%) sepia(99%) saturate(454%) hue-rotate(3deg) brightness(113%) contrast(102%);
+}
+
+.control {
+    width: 45px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: filter .4s;
+}
+
+.video-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 28px;
+    height: 85px;
+    background-color: #000000;
+}
+
+.control {
+    width: 40px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: filter .4s;
+}
+
+.video-play {
+    background-image: url(/assets/svg/video/play-control-panel.svg);
+}
+
+.video-backward {
+    background-image: url(/assets/svg/video/backwards.svg);
+}
+
+.video-fullscreen {
+    background-image: url(/assets/svg/video/fullscreen.svg);
+}
+
+.video-forward {
+    background-image: url(/assets/svg/video/forward.svg);
+}
+
+.video-volume {
+    background-image: url(/assets/svg/video/volume.svg);
+}
+
+.slider {
+    background: linear-gradient(to right, #046f92 0%, #709aa8 47%, #fff 47%, #fff 100%);
+    border-radius: 0px;
+    height: 8px;
+    width: 820px;
+    outline: none;
+/*     transition: background 450ms ease-in; */
+}
+
+.slider-volume {
+    margin-right: 7px;
+    width: 155px;
+    background: linear-gradient(to right, #24809E 0%, #24809E 43%, #fff 43%, #fff 100%);
+}
+
+.video-bottom {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 38px;
+}

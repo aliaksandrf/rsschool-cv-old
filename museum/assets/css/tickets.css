@@ -1,0 +1,158 @@
+.tickets-title{
+    color: var(--font-light);
+}
+
+.tickets-radio{
+    color: var(--font-light);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+
+    cursor: pointer;
+    display: block;
+    padding-left: 23px;
+    padding-top: 50px;
+
+   
+}
+
+.tickets-container {
+    display: flex;
+    justify-content: flex-start;
+
+    padding-top: 100px;
+}
+
+.tickets-container-right {
+    display: flex;
+    justify-content: space-between;
+
+    
+
+
+}
+
+
+
+
+
+
+/*radio buttons */
+.radio-block{
+    padding-left: 63px;
+}
+
+
+.container-radio {
+    display: block;
+    position: relative;    
+    cursor: pointer;
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+
+    padding-bottom: 50px;
+  }
+
+  .radio-button-padding {
+      padding-left: 23px;
+  }
+
+  .tickets-radio:hover {
+    color: var(--font-gold);
+}
+
+.buy-ticket-radio {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    color: #FFFFFF;
+
+    padding-bottom: 50px;
+}
+
+  
+  /*tickets amount*/
+  .tickets__amount-all-button {
+
+    width: 175px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border-radius: 2px;
+}
+
+
+
+.tickets-container-button {
+    padding-right: 160px;
+}
+
+.tickets__amount-age {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+
+    padding-top: 11px;
+}
+
+.tickets__amount-total {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 1.65px;
+    color: #FFFFFF;
+
+    padding-top: 27px;
+    padding-bottom: 50px;
+}
+
+.number {
+    all: unset;
+    width: 5em;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  .tickets__button {
+    padding: 2px;
+    border: 1px solid #FFFFFF;
+    height: 43px;
+    width: 150px;
+
+    margin-top: 16px;
+    margin-bottom: 23px;
+  }
+
+.tickets__amount-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    color: #FFFFFF;    
+}
+
+.ticket-amount {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    
+}
+
